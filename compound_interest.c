@@ -13,4 +13,6 @@ main(){
     ci = pri * ratetime;
 
     printf("Your total amount = %f ", ci) ;
+
+    return 0;
 }

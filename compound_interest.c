@@ -2,7 +2,7 @@
 #include <math.h> // to allow use of pow() function
 main(){
     
-    float pri, rate, time, ci, ratetime, calcrate;
+    float pri, rate, time, ci, ratetime, calcrate; //ci is compound interest
     
     printf("Enter the principle amount, rate, time(in years):");
     scanf("%f %f %f",& pri, & rate, & time);

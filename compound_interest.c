@@ -2,7 +2,7 @@
 #include <math.h> // to allow use of pow() function
 main(){
     
-    float pri, rate, time, ci, ratetime, calcrate; //ci is compound interest
+    float pri, rate, time, compoundinterest, ratetime, calcrate; 
     
     printf("Enter the principle amount, rate, time(in years):");
     scanf("%f %f %f",& pri, & rate, & time);
@@ -10,9 +10,9 @@ main(){
     //break down the formula 
     calcrate = 1 + (rate/100);
     ratetime = pow(calcrate, time);  //pow() function calculates the power of any given number
-    ci = pri * ratetime;
+    compoundinterest = pri * ratetime;
 
-    printf("Your total amount = %f ", ci) ;
+    printf("Your total amount = %f ", compoundinterest) ;
 
     return 0;
 }

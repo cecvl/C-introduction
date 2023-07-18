@@ -7,7 +7,7 @@ int main()
 {
 
     float radius, area, perimeter;
-    const double pi =  3.14285714; //constant
+     
 
     printf("Enter the radius:");
     scanf("%f", & radius);
